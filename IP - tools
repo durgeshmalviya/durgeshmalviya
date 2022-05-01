@@ -1,0 +1,31 @@
+       /all             Display full configuration information.
+       /release         Release the IPv4 address for the specified adapter.
+       /release6        Release the IPv6 address for the specified adapter.
+       /renew           Renew the IPv4 address for the specified adapter.
+       /renew6          Renew the IPv6 address for the specified adapter.
+       /flushdns        Purges the DNS Resolver cache.
+       /registerdns     Refreshes all DHCP leases and re-registers DNS names
+       /displaydns      Display the contents of the DNS Resolver Cache.
+       /showclassid     Displays all the dhcp class IDs allowed for adapter.
+       /setclassid      Modifies the dhcp class id.
+       /showclassid6    Displays all the IPv6 DHCP class IDs allowed for adapter.
+       /setclassid6     Modifies the IPv6 DHCP class id.
+       
+      commands
+      
+      #to flush browser history/wifi history
+      #Purges the DNS Resolver cache      
+      ipconfig /flushdns 
+      
+      #to renew ipv4 address/Renew the IPv4 address for the specified adapter
+      ipconfig /renew 
+          
+    
+      # to show wifi profiles
+      netsh wlan show profile
+      
+      #to show wifi password 
+      netsh wlan show profile name="xyz" key=clear
+      
+      
+      
